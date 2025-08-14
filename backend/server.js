@@ -5,7 +5,7 @@ import paymentroute from './routes/paymentroute.js'
 import contactroutes from './routes/contactroutes.js'
 import cors from 'cors'
 import { connectDB } from './config/database.js'
-config({path:'./config/config.env'})
+config({path:'.env'})
 connectDB()
 const app = express()
 
